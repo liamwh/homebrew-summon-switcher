@@ -7,16 +7,16 @@ class SummonSwitcher < Formula
   desc "Tiny macOS command-line tool for opening, focusing, and cycling applications"
   homepage "https://github.com/liamwh/summon"
   license "Apache-2.0"
-  version "0.2.0"
+  version "0.2.1"
 
   on_arm do
-    url "https://github.com/liamwh/summon/releases/download/v0.2.0/summon-switcher-aarch64-apple-darwin.tar.gz"
-    sha256 "74af867da65c67e3c636c71f39502c8612b7c778a912ae08472c61a961140c24"
+    url "https://github.com/liamwh/summon/releases/download/v0.2.1/summon-switcher-aarch64-apple-darwin.tar.gz"
+    sha256 "5df5e4d913501ceb910aa698aadd1b9d638ef1ab444b6b413bed8022a1a8fede"
   end
 
   on_intel do
-    url "https://github.com/liamwh/summon/releases/download/v0.2.0/summon-switcher-x86_64-apple-darwin.tar.gz"
-    sha256 "3ce517a94b77f881cd0266929de722d6660f27a9b69b39c89e1235db90bb95d4"
+    url "https://github.com/liamwh/summon/releases/download/v0.2.1/summon-switcher-x86_64-apple-darwin.tar.gz"
+    sha256 "5ced6412469ae51edfb9870c6e47b4aee416f79c4ec78b7a072f298b86434bdd"
   end
 
   depends_on :macos
